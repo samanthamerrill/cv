@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- html = HyperText Markup Language -->
+  <head> <!-- anything in this tag holds the general information about the page
+    and tells the browser how it should handle the page -->
+    <meta charset="utf-8"> <!--gives extra meta data to the html doc -->
+    <!--utf-8 is the standard, and includes emojis-->
+    <!-- other meta tags can include info such as author, description -->
+    <title>Samantha's Personal Site</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td> <img src = "1.png" alt = "purple and blue"> </td>
+        <td>
+          <h1>Samantha Merrill</h1>
+          <!-- the p tag formats text into a paragraph, forming a new line
+          and putting all the text in that paragraph -->
+          <p>Student.
+            <i> This is an italic statement inside my paragraph.</i>
+            <em> This is an emphasized italic statement inside my paragraph.</em>
+            <!-- i vs. em == b vs. strong -->
+          </p>
+          <p> I am a student at <a href = "https://www.tamu.edu/">Texas A&M University</a>.</p>
+        </td>
+      </tr>
+    </table>
+    <!-- to insert an image from the internet, src (source) is url-->
+    <!-- alt describes what the image is to browsers -->
+    <!-- this image method currently relies on the og image server not going down -->
+    <img src = "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3dpdHplcmxhbmR8ZW58MHx8MHx8&w=1000&q=80"
+    alt = "picture of Switzerland">
+    <!-- to have an image NOT rely on another site, ensure the image is saved in the same folder as the html file-->
+
+    <!-- if the image is in a different folder, use the folder name as a pathway-->
+    <img src = "images/50.png" alt = "diamond">
+
+    <!-- hr creates a horizontal line -->
+    <hr>
+    <h3>Education: I attended VCA before A&M.</h3>
+      <ul> <!-- begin an unordered list-->
+        <li>first element in the unordered list </li>
+        <li>Here is where I went to school:<a href = "https://www.veritasclassicalacademy.org/">Veritas Classical Academy</a></li>
+      </ul>
+      <ol> <!-- begin an ordered list-->
+        <li>first element in the ordered list</li>
+        <li><a href = "hobbies.html">My Hobbies</a></li>
+      </ol>
+    <hr>
+    <h3> <a href = "contact information/mycontactinfo.html">Contact Information</a></h3>
+    <table> <!-- create a table -->
+      <thead> <!-- create a table head -->
+        <tr>
+          <th> Dates </th> <!-- table header text -->
+          <th> Occupation </th>
+        </tr>
+      </thead>
+      <tbody> <!-- create the main table body -->
+      <tr> <!-- create a table row -- >
+        <td>2003-2013</td> <!-- creat a table cell, don't know why this isn't showing up -->
+        <td>Childhood years</td>
+      </tr>
+      <tr>
+        <td> 2013-2016 </td>
+        <td> student </td>
+      </tr>
+      <tr>
+        <td> 2016 - 2021 </td>
+        <td> mock trial </td>
+      </tr>
+      </tbody>
+    </table>
+    <h1> Skills </h1>
+    <table cellspacing = "10"> <!-- or, could have used nested table -->
+      <thead>
+        <tr>
+          <th> Action </th>
+          <th> Skill Level </th>
+          <th> Action </th>
+          <th> Skill Level </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> iOS development </td>
+          <td> 😀 </td>
+          <td> web design </td>
+          <td> 😀😀 </td>
+        </tr>
+        <tr>
+          <td> law </td>
+          <td> 😀😀😀😀😀 </td>
+          <td> reined cow horse </td>
+          <td> 😀😀😀 </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

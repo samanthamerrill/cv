@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<!-- enctype = "text/plain" says that the data in the form is encoded
+in plain text -->
+    <form action = "mailto:samanthacmerrill@gmail.com" method = "post" enctype = "text/plain">
+<!-- the form specification tells the website to open the user's default email
+and insert the specified email address into the recipients -->
+      <label> Input your name: </label>
+<!-- name attributes are like variable assignments -->
+      <input type = "text" name = "yourName" value = ""><br>
+      <label> Input your password </label>
+      <input type = "password" name = "yourPassword" value = ""><br>
+      <label> press this button to submit your email </label>
+      <input type = "submit" name = "submitYourEmail" value = ""><br>
+    <!--  <input type = "file" name = "" value = ""> -->
+      <label> Your email: </label>
+      <input type = "email" name = "yourEmail" value = ""><br>
+      <label> Your message: </label>
+      <textarea name = "yourMessage" rows = "10" cols = "30"></textarea><br>
+      <input type = "submit" name = "">
+
+
+    </form>
+  </body>
+</html>
